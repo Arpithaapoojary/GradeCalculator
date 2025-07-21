@@ -1,14 +1,19 @@
 # Grade Calculator
 
-This is a simple Java console application that takes a student's name, USN, and total marks as input, calculates the percentage, and assigns a grade.
+A simple Java console application that calculates the percentage and assigns a grade based on total marks.
 
-## Features
-- Input: Name, USN, and marks
-- Output: Percentage and grade based on standard ranges
+## Inputs
+- Student name
+- USN
+- Total marks (out of 500)
+
+## Outputs
+- Percentage
+- Grade (A+, A, B+, B, C, Fail)
+
+## How to Run
+1. Compile: `javac GradeCalculator.java`
+2. Run: `java GradeCalculator`
 
 ## Technologies Used
 - Java
-
-## How to Run
-1. Compile the file: `javac GradeCalculator.java`
-2. Run the program: `java GradeCalculator`
